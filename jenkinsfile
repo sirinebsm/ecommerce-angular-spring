@@ -2,8 +2,6 @@ pipeline{
     agent none
     environnement{
         DOCKERHUB_CREDENTIALS = credentials('db_cred')
-
-
     }
     stages{
         stage ('checkout'){
