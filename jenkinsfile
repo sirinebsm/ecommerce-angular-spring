@@ -1,6 +1,6 @@
 pipeline{
     agent none
-    environement{ 
+    environment{ 
         DOCKERHUB_CREDENTIALS = credentials('db_cred') 
     }
     stages{
